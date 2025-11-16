@@ -1,0 +1,40 @@
+
+package com.mycompany.part_a11;
+
+import java.util.Scanner;
+
+public class part_A {
+     int n;
+     void primeNumbers()
+     {
+         int divisionCount;
+         Scanner oS=new Scanner(System.in);
+         System.out.println("enter the range of prime numbers");
+         this.n=oS.nextInt();
+         System.out.println("prime numbers :" +this.n);
+         for(int i=1;i<=n;i++)
+         {
+             divisionCount=0;
+             for(int j=1;j<=n;j++)
+             {
+                 if((i%j)==0)
+                    divisionCount++;
+             }
+             if(divisionCount==2)
+                 System.out.println(i);
+         }
+     }
+}
+
+    
+    
+
+
+    
+
+
+      
+    
+
+    
+
