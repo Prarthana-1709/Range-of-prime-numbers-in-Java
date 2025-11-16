@@ -1,0 +1,18 @@
+
+package com.mycompany.part_a11;
+
+
+
+public class Part_A11  {
+
+    public static void main(String[] args) {
+        part_A  objpart_A =new part_A ();
+        objpart_A.primeNumbers();
+       
+       
+       
+      
+       
+    }
+}
+
